@@ -1,0 +1,40 @@
+@import "variables";
+
+.btn
+{
+    color: $white-clr;
+    border-style: none;
+    background-color: $blue-clr;
+    padding: 0.4rem 1.2rem;
+    border-radius: 5px;
+}
+
+.call
+{
+    .btn
+    {
+        border: $white-clr 2px solid;
+        height: 5vh;
+        width: 7vw;
+    }
+
+    .btn:hover
+    {
+        color: $blue-clr;
+        border-style: none;
+        background-color: $white-clr;
+        padding: 0.4rem 1.2rem;
+        border-radius: 5px;
+
+        border: $blue-clr 2px solid;
+        height: 5vh;
+        width: 7vw;
+
+        cursor: pointer;
+    }
+}
+
+.btn:hover
+{
+    cursor: pointer;
+}

@@ -1,0 +1,24 @@
+@import "variables";
+
+.cardHolder
+{
+    width: 100vw;
+    height: 50vh;
+    padding: 2rem;
+    padding-bottom: 3rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards
+{
+    display: flex;
+    gap: 1rem;
+    flex: 1;
+    justify-content: space-around;
+
+    height: 70vw;
+}

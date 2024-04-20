@@ -1,0 +1,18 @@
+@import "variables";
+
+.quote
+{
+    width: 100vw;
+    height: 40vh;
+    background-color: $qot-bkg;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text
+{
+    font-style: $txt-ilt;
+    font-size: $txt-l;
+    padding: 10rem;
+}

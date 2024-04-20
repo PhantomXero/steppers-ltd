@@ -1,0 +1,14 @@
+@import "variables";
+
+footer
+{
+    background-color: $drk-bkg;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100vw;
+    height: 20vh;
+
+    color: $white-clr;
+}

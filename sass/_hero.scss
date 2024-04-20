@@ -1,0 +1,56 @@
+@import "variables";
+
+.hero
+{
+    background-color: $drk-bkg;
+    padding: 1rem 8rem 5rem 8rem;
+
+    color: $white-clr;
+    height: 100vh;
+}
+.header
+{
+    display: flex;
+    justify-content: space-between;
+}
+.header_links
+{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.logo
+{
+    padding-top: 0.5rem;
+    font-weight: $txt-bold;
+    font-size: $txt-m;
+}
+.hero_container
+{
+    display: flex;
+    margin-top: 3rem;
+}
+.content
+{
+
+}
+.hero_title
+{
+    font-weight: $txt-bold;
+    margin-bottom: 0;
+}
+.hero_subtext
+{
+    width: 70%;
+}
+.hero_image
+{
+    height: 45vh;
+    width: 165vw;
+    background-image: url("/img/pexels-adrian-dorobantu-2300334.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 2rem;
+}

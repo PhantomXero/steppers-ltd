@@ -1,0 +1,41 @@
+@import "variables";
+
+.card
+{
+    display: flex;
+    flex-direction: column;
+    width: 12vw;
+
+    align-items: center;
+}
+
+.img
+{
+    border: $blue-clr 3px solid;
+    border-radius: 10px;
+
+    height: 20vh;
+    width: 10vw;
+}
+
+.img_subtext
+{
+    text-align: center;
+}
+
+// .i1
+// {
+    // background-image: url("/img/pexels-scott-webb-137603.jpg");
+// }
+// .i2
+// {
+    // background-image: url("/img/pexels-melvin-buezo-2529148.jpg");
+// }
+// .i3
+// {
+    // background-image: url("/img/pexels-jordan-hyde-1032110.jpg");
+// }
+// .i4
+// {
+    // background-image: url("/img/pexels-frans-van-heerden-847371.jpg");
+// }
