@@ -1,13 +1,20 @@
-import { useState } from "react";
 import "./index.css";
-import button from "./components/buttons";
+
+// components imports
+import Hero from "./components/hero";
+import CardHolder from "./components/cardHolder";
+import Quote from "./components/quote";
+import CallToAction from "./components/callToAction";
+import Footer from "./components/footer";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
-      <button />
+      <Hero />
+      <CardHolder />
+      <Quote />
+      <CallToAction />
+      <Footer />
     </>
   );
 }
