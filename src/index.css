@@ -59,6 +59,9 @@
   width: 12vw;
   align-items: center;
 }
+.card .img, .card .img_subtext {
+  cursor: pointer;
+}
 
 .img {
   border: #3882F6 3px solid;
