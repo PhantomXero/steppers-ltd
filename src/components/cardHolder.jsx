@@ -1,9 +1,7 @@
 import React from "react";
 
-import { Card1 } from "./card";
-import { Card2 } from "./card";
-import { Card3 } from "./card";
-import { Card4 } from "./card";
+import Card from "./card";
+import { Cards } from "./card/Cards";
 
 function cardHolder() {
   return (
@@ -12,10 +10,9 @@ function cardHolder() {
         We have shoes for everyone. Take your pick
       </h2>
       <div className="cards">
-        <Card1 />
-        <Card2 />
-        <Card3 />
-        <Card4 />
+        {Cards.map(({ id, title, img, text }) => (
+          <Card key={id} />
+        ))}
       </div>
     </div>
   );

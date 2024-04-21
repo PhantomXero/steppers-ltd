@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://phantomxero.github.io/steppers-ltd/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
