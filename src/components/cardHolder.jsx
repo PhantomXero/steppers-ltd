@@ -1,6 +1,6 @@
 import React from "react";
 
-import Card from "./card";
+import Card from "./card/card";
 import { Cards } from "./card/Cards";
 
 function cardHolder() {
@@ -11,7 +11,7 @@ function cardHolder() {
       </h2>
       <div className="cards">
         {Cards.map(({ id, title, img, text }) => (
-          <Card key={id} />
+          <Card key={id} title={title} img={img} text={text} />
         ))}
       </div>
     </div>
