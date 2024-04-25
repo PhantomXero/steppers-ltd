@@ -1,7 +1,7 @@
 import React from "react";
 
-import Card from "./card/Cards.jsx";
-import { Cards } from "./card/Cards.jsx";
+import Card from "./card/Card.jsx";
+import Cards from "./card/Cards.jsx";
 
 function cardHolder() {
   return (
